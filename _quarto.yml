@@ -3,12 +3,12 @@ project:
   output-dir: docs
 book:
   title: "learningdirary"
-  author: "Norah Jones"
+  author: "Yilun Xu"
   date: "2024/2/1"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - week1.qmd
+    - week2.qmd
     - references.qmd
 
 bibliography: references.bib
