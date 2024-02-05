@@ -19,8 +19,7 @@ output:
  Landsat 8 was launched on 11 February 2013 as a joint Earth observation satellite of the United States Geological Survey (USGS) and the National Aeronautics and Space Administration (NASA). It is the eighth satellite in the Landsat series and is designed to continue a surface observation record that spans more than four decades.
 
 
-{r echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('img/Landsat8.png')
+![Lansat8]('img/Landsat8.jpg')
 
 ---
 # OLI and TIRS introduction
@@ -32,7 +31,7 @@ Landsat 8 carries two primary sensors: the Operational Land Imager (OLI) and the
 ]
 
 .pull-right[
-  knitr::include_graphics('img/OLI.png')
+  ![OLI]('img/OLI.jpg')
 ]
 
 ---
@@ -44,7 +43,7 @@ Landsat 8 carries two primary sensors: the Operational Land Imager (OLI) and the
 
 
 .pull-right[
-  knitr::include_graphics('img/TIRS.png')
+  ![TIRS]('img/TIRS.jpg')
 ]
 
 ---
