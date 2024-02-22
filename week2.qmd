@@ -1,7 +1,8 @@
 # Week2
 
-In summary, this book has no content whatsoever.
+```{r echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "https://github.com/4GREYy/ppt.git",
+  ratio = "16:9")
 
-```{r}
-1 + 1
 ```
