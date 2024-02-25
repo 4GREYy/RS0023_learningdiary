@@ -4,5 +4,4 @@
 xaringanExtra::embed_xaringan(
   url = "https://github.com/4GREYy/ppt.git",
   ratio = "16:9")
-
 ```
