@@ -2,9 +2,6 @@
 
 ## 1 Sentinel data and Landsat data
 
-
 Sentinel: The Sentinel series of satellites is part of Europe's Global Monitoring for Environmental Security (Copernicus programme), led by ESA.The Sentinel project is designed to provide data for a wide range of environmental and security monitoring, including land, oceans and the atmosphere. Of these, Sentinel-1, Sentinel-2 and Sentinel-3 are satellites that provide primarily terrestrial data.
 
 Landsat: The programme has been in operation since 1972 and is the world's longest land observation satellite project.The Landsat project is jointly managed by NASA and the United States Geological Survey (USGS).The Landsat series of satellites has a long history, with Landsat 8 and Landsat 9 currently active.
-
-
