@@ -1,4 +1,4 @@
-# Week2 {.unnumbered}f
+# Week2 {.unnumbered}
 
 ```{r echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(
