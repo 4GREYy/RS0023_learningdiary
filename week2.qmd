@@ -2,6 +2,6 @@
 
 ```{r echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(
-  url = "https://github.com/4GREYy/ppt.git",
+  url = "https://4greyy.github.io/ppt/#1",
   ratio = "16:9")
 ```
