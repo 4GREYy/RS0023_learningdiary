@@ -46,22 +46,18 @@ Here are the results of PCA in practical
 
 ## Personal Reflections
 
+-   Awareness and application reflections on GEE:
 
-* Awareness and application reflections on GEE:
+GEE offers great potential as a powerful platform for analysing Earth observation data, giving me a deeper understanding of areas such as environmental monitoring and climate change research. Through the ability to process and analyse large-scale geospatial data directly in the browser, I realised the role of data science in solving global problems. The learning curve of GEE was a challenge for me, but also an opportunity to push me to learn new programming languages and techniques. Practically, I learned how to search and load datasets, which was crucial for my project.
 
-GEE offers great potential as a powerful platform for analysing Earth observation data, giving me a deeper understanding of areas such as environmental monitoring and climate change research. Through the ability to process and analyse large-scale geospatial data directly in the browser, I realised the role of data science in solving global problems.
-The learning curve of GEE was a challenge for me, but also an opportunity to push me to learn new programming languages and techniques. Practically, I learned how to search and load datasets, which was crucial for my project.
+-   Practical Reflections on Image Processing Methods:
 
-* Practical Reflections on Image Processing Methods:
+Learning about scale factor processing, image mosaicing and cropping techniques for Landsat surface reflectance products gave me a better understanding of remote sensing image processing. In particular, when performing image mosaics, understanding how to deal with overlapping areas and selecting the best pixel value (mean or median) is of practical significance for improving image quality. When applying these image processing methods, I realise that the balance between accuracy and image quality is crucial. This requires me to pay attention not only to technical details but also to careful quality control and evaluation of the data.
 
-Learning about scale factor processing, image mosaicing and cropping techniques for Landsat surface reflectance products gave me a better understanding of remote sensing image processing. In particular, when performing image mosaics, understanding how to deal with overlapping areas and selecting the best pixel value (mean or median) is of practical significance for improving image quality.
-When applying these image processing methods, I realise that the balance between accuracy and image quality is crucial. This requires me to pay attention not only to technical details but also to careful quality control and evaluation of the data.
-
-* Reflections on the application of texture measurement and PCA in data analysis:
+-   Reflections on the application of texture measurement and PCA in data analysis:
 
 Texture measurement introduced me to another dimension in image analysis, namely how surface features can be extracted through grey level covariance matrices and texture filters. This was very helpful in improving classification accuracy and understanding changes in ground cover.
 
 Practising PCA gave me a deep understanding of the importance of downscaling and feature extraction. By transforming the data to a new coordinate system, I was able to identify and interpret key information in the remotely sensed data more effectively. This not only enhanced my understanding of the data, but also improved the efficiency of data analysis.
-
 
 In summary, through the study and practice of GEE, I have gained a more comprehensive understanding of remote sensing data analysis. This has not only enhanced my technical skills, but also made me more aware of the potential of data analysis in solving environmental and social problems. In the future, I hope to continue to learn more about the advanced features of the GEE platform and explore more application scenarios to enhance my research and project development capabilities.
