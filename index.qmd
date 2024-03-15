@@ -1,1 +1,9 @@
 # Introduction {.unnumbered}
+
+This is the coursework for CASA0023 emotely sensing cities and environments - learning diary
+
+My name is Yilun Xu.
+
+My student number is 22103173.
+
+![](pic/welcome.png)"
