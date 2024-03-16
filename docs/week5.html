@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
+<link href="./week6.html" rel="next">
 <link href="./week4.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -119,6 +119,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./week3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">week3</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">week4</span></a>
   </div>
@@ -127,6 +133,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./week5.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Week5</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">week6.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -145,14 +157,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#gee" id="toc-gee" class="nav-link active" data-scroll-target="#gee">1 GEE</a></li>
-  <li><a href="#image-processing" id="toc-image-processing" class="nav-link" data-scroll-target="#image-processing">2 Image Processing</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">3 Applications</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">1 Summary</a>
   <ul class="collapse">
-  <li><a href="#texture-measurement" id="toc-texture-measurement" class="nav-link" data-scroll-target="#texture-measurement">3.1 Texture Measurement</a></li>
-  <li><a href="#pca" id="toc-pca" class="nav-link" data-scroll-target="#pca">3.2 PCA</a></li>
+  <li><a href="#gee" id="toc-gee" class="nav-link" data-scroll-target="#gee">1.1 GEE</a></li>
+  <li><a href="#image-processing" id="toc-image-processing" class="nav-link" data-scroll-target="#image-processing">1.2 Image Processing</a></li>
+  <li><a href="#texture-measurement" id="toc-texture-measurement" class="nav-link" data-scroll-target="#texture-measurement">1.3 Texture Measurement</a></li>
+  <li><a href="#pca" id="toc-pca" class="nav-link" data-scroll-target="#pca">1.4 PCA</a></li>
   </ul></li>
-  <li><a href="#personal-reflections" id="toc-personal-reflections" class="nav-link" data-scroll-target="#personal-reflections">Personal Reflections</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">2 Applications</a></li>
+  <li><a href="#personal-reflections" id="toc-personal-reflections" class="nav-link" data-scroll-target="#personal-reflections">3 Personal Reflections</a></li>
   </ul>
 </nav>
     </div>
@@ -176,22 +189,22 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="gee" class="level2">
-<h2 class="anchored" data-anchor-id="gee">1 GEE</h2>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">1 Summary</h2>
+<section id="gee" class="level3">
+<h3 class="anchored" data-anchor-id="gee">1.1 GEE</h3>
 <p>Google Earth Engine (GEE) is an Earth observation data analysis platform for scientists, researchers, and developers that brings together multiple repositories of satellite and ground-based monitoring data and a range of algorithms for data analysis and visualization.GEE provides a programming environment that can be used directly in a browser, allowing users to use languages such as JavaScript or Python to process and analyze large-scale geospatial data. The Google Earth Engine (GEE) offers the possibility of many specific applications covering a wide range of fields such as environmental monitoring, climate change studies, land cover and land use change, water resource management, agricultural development, urban planning, etc. The GEE is a platform for analyzing Earth observation data, a collection of multiple satellite and ground-based monitoring data repositories, and a series of algorithms for data analysis and visualization.GEE also has a massive catalog of data that we can search and load directly into our script.</p>
 <p><img src="pic/GEE .png" class="img-fluid" alt="Earth Engine Data Catalog">”</p>
 </section>
-<section id="image-processing" class="level2">
-<h2 class="anchored" data-anchor-id="image-processing">2 Image Processing</h2>
+<section id="image-processing" class="level3">
+<h3 class="anchored" data-anchor-id="image-processing">1.2 Image Processing</h3>
 <p>The image processing methods mentioned in this section are the following three:</p>
 <p>One, Processing the scale factor of Landsat surface reflectance products to improve image quality and resolution.</p>
 <p>Second, mosaic images, focusing on how to focus on how to visually appear to have a significant gap between the image stitched into a large image. Whether the best solution is to take the average or the median of all overlapping pixels needs to be analysed on a case-by-case basis, and generally speaking the median is better for larger data.</p>
 <p>Third, cropping, the image will be cropped to the appropriate shape according to the specific project scope requirements.</p>
 </section>
-<section id="applications" class="level2">
-<h2 class="anchored" data-anchor-id="applications">3 Applications</h2>
 <section id="texture-measurement" class="level3">
-<h3 class="anchored" data-anchor-id="texture-measurement">3.1 Texture Measurement</h3>
+<h3 class="anchored" data-anchor-id="texture-measurement">1.3 Texture Measurement</h3>
 <p>Texture measurement is an important technique in image analysis to identify and classify image regions. In the field of remote sensing, texture can be used to help distinguish between different surface features such as urban areas, farmland, forests, and so on. Texture measurement provides a way to quantify the distribution and arrangement of pixel grey values in an image.</p>
 <p>In practice, texture measurement usually involves the following steps:</p>
 <ul>
@@ -208,14 +221,32 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="pic/week5out3.png" class="img-fluid" alt="glcm">”</p>
 </section>
 <section id="pca" class="level3">
-<h3 class="anchored" data-anchor-id="pca">3.2 PCA</h3>
+<h3 class="anchored" data-anchor-id="pca">1.4 PCA</h3>
 <p>In Google Earth Engine (GEE), Principal Component Analysis (PCA) is a powerful tool often used for dimensionality reduction, feature extraction, and data compression of remotely sensed data. It does this by transforming the data to a new coordinate system such that the data has the largest variance in the direction of the first principal component, with each subsequent principal component having the next largest variance and being orthogonal to the previous component. In remote sensing, this can help to highlight differences between pixels and is often used to enhance certain features in an image or to reduce redunda nt information in the data.</p>
 <p>Here are the results of PCA in practical</p>
 <p><img src="pic/week5out1.png" class="img-fluid" style="width:80.0%" alt="PCA Result"> <img src="pic/week5out2.png" class="img-fluid" style="width:80.0%" alt="PCA Result2"></p>
 </section>
 </section>
+<section id="applications" class="level2">
+<h2 class="anchored" data-anchor-id="applications">2 Applications</h2>
+<p>GEE is widely used in a variety of fields such as environmental monitoring, resource management, urban planning, agriculture, and climate change research. Below are some specific GEE application examples that demonstrate its application capabilities in different scenarios:</p>
+<p>A. Forest and vegetation monitoring GEE can be used to monitor forest cover changes, vegetation health and ecosystem degradation. By analysing multi-temporal satellite data, researchers can track events such as deforestation, the impact of forest fires and the spread of diseases, providing a scientific basis for ecological protection and natural resource management.</p>
+<p>B. Water resources management Using GEE, it is possible to assess changes in water levels in rivers, lakes and reservoirs, monitor drought and flood events, and analyse pollution of water bodies. This is essential for water resources planning, the establishment of disaster early warning systems and improving the efficiency of water quality management.</p>
+<ol start="3" type="A">
+<li>Analysis of urban heat island effect Thermal infrared remote sensing data on the GEE platform can be used to identify and analyse the urban heat island effect. By comparing the surface temperature of the city with that of the surrounding rural areas, researchers can assess the effectiveness of urban planning in mitigating the heat island effect, and guide decisions such as urban greening and the selection of building materials.</li>
+</ol>
+<p>D, Agricultural applications GEE can be used to monitor crop growth, assess the effects of drought and predict crop yields. By analysing satellite images in different bands, crop health indicators such as Normalised Vegetation Index (NDVI) can be extracted to help farmers optimise irrigation, fertiliser application and pest management.</p>
+<ol start="5" type="A">
+<li>Climate change research GEE provides a powerful tool for global warming and climate change research. Scientists can use GEE to analyse trends in glacier retreat, sea level rise, temperature change and extreme weather events, as well as the impact of these changes on biodiversity and human society.</li>
+</ol>
+<!-- -->
+<ol start="6" type="1">
+<li>Disaster response and recovery In the aftermath of a natural disaster, GEE can quickly provide satellite imagery of the affected area to help assess the impact of the disaster, such as the extent of flood inundation, earthquake damage and hurricane impacts. This is very useful for disaster emergency response and recovery planning.</li>
+</ol>
+<p>The wide range of applications of GEE is attributed to its ability to handle large amounts of geospatial data, its rich data resources and its highly efficient.</p>
+</section>
 <section id="personal-reflections" class="level2">
-<h2 class="anchored" data-anchor-id="personal-reflections">Personal Reflections</h2>
+<h2 class="anchored" data-anchor-id="personal-reflections">3 Personal Reflections</h2>
 <ul>
 <li>Awareness and application reflections on GEE:</li>
 </ul>
@@ -475,8 +506,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week6.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">week6.html</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

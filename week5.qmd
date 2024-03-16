@@ -1,12 +1,14 @@
 # Week5 {.unnumbered}
 
-## 1 GEE
+## 1 Summary
+
+### 1.1 GEE
 
 Google Earth Engine (GEE) is an Earth observation data analysis platform for scientists, researchers, and developers that brings together multiple repositories of satellite and ground-based monitoring data and a range of algorithms for data analysis and visualization.GEE provides a programming environment that can be used directly in a browser, allowing users to use languages such as JavaScript or Python to process and analyze large-scale geospatial data. The Google Earth Engine (GEE) offers the possibility of many specific applications covering a wide range of fields such as environmental monitoring, climate change studies, land cover and land use change, water resource management, agricultural development, urban planning, etc. The GEE is a platform for analyzing Earth observation data, a collection of multiple satellite and ground-based monitoring data repositories, and a series of algorithms for data analysis and visualization.GEE also has a massive catalog of data that we can search and load directly into our script.
 
 ![Earth Engine Data Catalog](pic/GEE%20.png)"
 
-## 2 Image Processing
+### 1.2 Image Processing
 
 The image processing methods mentioned in this section are the following three:
 
@@ -16,9 +18,7 @@ Second, mosaic images, focusing on how to focus on how to visually appear to hav
 
 Third, cropping, the image will be cropped to the appropriate shape according to the specific project scope requirements.
 
-## 3 Applications
-
-### 3.1 Texture Measurement
+### 1.3 Texture Measurement
 
 Texture measurement is an important technique in image analysis to identify and classify image regions. In the field of remote sensing, texture can be used to help distinguish between different surface features such as urban areas, farmland, forests, and so on. Texture measurement provides a way to quantify the distribution and arrangement of pixel grey values in an image.
 
@@ -36,7 +36,7 @@ Special attention should be paid to the following when performing texture analys
 
 ![glcm](pic/week5out3.png)"
 
-### 3.2 PCA
+### 1.4 PCA
 
 In Google Earth Engine (GEE), Principal Component Analysis (PCA) is a powerful tool often used for dimensionality reduction, feature extraction, and data compression of remotely sensed data. It does this by transforming the data to a new coordinate system such that the data has the largest variance in the direction of the first principal component, with each subsequent principal component having the next largest variance and being orthogonal to the previous component. In remote sensing, this can help to highlight differences between pixels and is often used to enhance certain features in an image or to reduce redunda nt information in the data.
 
@@ -44,7 +44,28 @@ Here are the results of PCA in practical
 
 ![PCA Result](pic/week5out1.png){width="80%"} ![PCA Result2](pic/week5out2.png){width="80%"}
 
-## 4 Personal Reflections
+## 2 Applications
+
+GEE is widely used in a variety of fields such as environmental monitoring, resource management, urban planning, agriculture, and climate change research. Below are some specific GEE application examples that demonstrate its application capabilities in different scenarios:
+
+A. Forest and vegetation monitoring GEE can be used to monitor forest cover changes, vegetation health and ecosystem degradation. By analysing multi-temporal satellite data, researchers can track events such as deforestation, the impact of forest fires and the spread of diseases, providing a scientific basis for ecological protection and natural resource management.
+
+B. Water resources management Using GEE, it is possible to assess changes in water levels in rivers, lakes and reservoirs, monitor drought and flood events, and analyse pollution of water bodies. This is essential for water resources planning, the establishment of disaster early warning systems and improving the efficiency of water quality management.
+
+C.  Analysis of urban heat island effect Thermal infrared remote sensing data on the GEE platform can be used to identify and analyse the urban heat island effect. By comparing the surface temperature of the city with that of the surrounding rural areas, researchers can assess the effectiveness of urban planning in mitigating the heat island effect, and guide decisions such as urban greening and the selection of building materials.
+
+D, Agricultural applications GEE can be used to monitor crop growth, assess the effects of drought and predict crop yields. By analysing satellite images in different bands, crop health indicators such as Normalised Vegetation Index (NDVI) can be extracted to help farmers optimise irrigation, fertiliser application and pest management.
+
+E.  Climate change research GEE provides a powerful tool for global warming and climate change research. Scientists can use GEE to analyse trends in glacier retreat, sea level rise, temperature change and extreme weather events, as well as the impact of these changes on biodiversity and human society.
+
+```{=html}
+<!-- -->
+```
+6.  Disaster response and recovery In the aftermath of a natural disaster, GEE can quickly provide satellite imagery of the affected area to help assess the impact of the disaster, such as the extent of flood inundation, earthquake damage and hurricane impacts. This is very useful for disaster emergency response and recovery planning.
+
+The wide range of applications of GEE is attributed to its ability to handle large amounts of geospatial data, its rich data resources and its highly efficient.
+
+## 3 Personal Reflections
 
 -   Awareness and application reflections on GEE:
 

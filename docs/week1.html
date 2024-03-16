@@ -119,6 +119,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./week3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">week3</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">week4</span></a>
   </div>
@@ -127,6 +133,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./week5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week5</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">week6.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -145,16 +157,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sentinel-data-and-landsat-data" id="toc-sentinel-data-and-landsat-data" class="nav-link active" data-scroll-target="#sentinel-data-and-landsat-data">1 Sentinel data and Landsat data</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a>
   <ul class="collapse">
-  <li><a href="#the-differences-between-landsat-and-sentinel-data" id="toc-the-differences-between-landsat-and-sentinel-data" class="nav-link" data-scroll-target="#the-differences-between-landsat-and-sentinel-data">1.1 The differences between Landsat and Sentinel data</a></li>
-  </ul></li>
+  <li><a href="#sentinel-data-and-landsat-data" id="toc-sentinel-data-and-landsat-data" class="nav-link" data-scroll-target="#sentinel-data-and-landsat-data">1 Sentinel data and Landsat data</a></li>
   <li><a href="#spectral-signatures" id="toc-spectral-signatures" class="nav-link" data-scroll-target="#spectral-signatures">2 Spectral signatures</a></li>
-  <li><a href="#grating-processing-and-spectral-spatial-characterisation-considerations" id="toc-grating-processing-and-spectral-spatial-characterisation-considerations" class="nav-link" data-scroll-target="#grating-processing-and-spectral-spatial-characterisation-considerations">3 Grating Processing and Spectral Spatial Characterisation Considerations</a>
-  <ul class="collapse">
-  <li><a href="#issues-to-keep-in-mind-when-raster-processing" id="toc-issues-to-keep-in-mind-when-raster-processing" class="nav-link" data-scroll-target="#issues-to-keep-in-mind-when-raster-processing">3.1 Issues to keep in mind when raster processing</a></li>
-  <li><a href="#issues-to-be-noted-in-spectral-spatial-characterisation" id="toc-issues-to-be-noted-in-spectral-spatial-characterisation" class="nav-link" data-scroll-target="#issues-to-be-noted-in-spectral-spatial-characterisation">3.2 Issues to be noted in spectral spatial characterisation</a></li>
-  <li><a href="#general-considerations" id="toc-general-considerations" class="nav-link" data-scroll-target="#general-considerations">3.3 General Considerations</a></li>
+  <li><a href="#grating-processing-and-spectral-spatial-characterisation-considerations" id="toc-grating-processing-and-spectral-spatial-characterisation-considerations" class="nav-link" data-scroll-target="#grating-processing-and-spectral-spatial-characterisation-considerations">3 Grating Processing and Spectral Spatial Characterisation Considerations</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -180,59 +187,62 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>This is the first week of the learning diary, this week’s main focus is on learning Landsat and Sentinel data acquisition; basic raster image statistics and processing; and statistical analysis of spectral features.</p>
-<section id="sentinel-data-and-landsat-data" class="level2">
-<h2 class="anchored" data-anchor-id="sentinel-data-and-landsat-data">1 Sentinel data and Landsat data</h2>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<section id="sentinel-data-and-landsat-data" class="level3">
+<h3 class="anchored" data-anchor-id="sentinel-data-and-landsat-data">1 Sentinel data and Landsat data</h3>
 <p>Sentinel: The Sentinel series of satellites is part of Europe’s Global Monitoring for Environmental Security (Copernicus programme), led by ESA.The Sentinel project is designed to provide data for a wide range of environmental and security monitoring, including land, oceans and the atmosphere. Of these, Sentinel-1, Sentinel-2 and Sentinel-3 are satellites that provide primarily terrestrial data.</p>
 <p>Landsat: The programme has been in operation since 1972 and is the world’s longest land observation satellite project.The Landsat project is jointly managed by NASA and the United States Geological Survey (USGS).The Landsat series of satellites has a long history, with Landsat 8 and Landsat 9 currently active.</p>
-<section id="the-differences-between-landsat-and-sentinel-data" class="level3">
-<h3 class="anchored" data-anchor-id="the-differences-between-landsat-and-sentinel-data">1.1 The differences between Landsat and Sentinel data</h3>
+<section id="the-differences-between-landsat-and-sentinel-data" class="level4">
+<h4 class="anchored" data-anchor-id="the-differences-between-landsat-and-sentinel-data">1.1 The differences between Landsat and Sentinel data</h4>
 <p>In addition to the most obvious differences in the Managing Agencies of the two types of satellite data, they also have specialised differences such as Spatial Resolution; Temporal Resolution; and Spectral Bands.</p>
-<section id="spatial-resolution" class="level4">
-<h4 class="anchored" data-anchor-id="spatial-resolution">1.1.1 Spatial Resolution</h4>
+<section id="spatial-resolution" class="level5">
+<h5 class="anchored" data-anchor-id="spatial-resolution">1.1.1 Spatial Resolution</h5>
 <p>Landsat satellites, particularly the Landsat 8 and Landsat 9 missions, offer a spatial resolution of 15 meters for panchromatic (black and white) imagery, 30 meters for multispectral bands, and 100 meters for thermal bands.The Sentinel satellites include multiple missions with varying capabilities. Sentinel-2, for example, offers higher-resolution data with 10 meters for visible and near-infrared bands, 20 meters for additional infrared bands, and 60 meters for shortwave infrared bands.</p>
 </section>
-<section id="temporal-resolution" class="level4">
-<h4 class="anchored" data-anchor-id="temporal-resolution">1.1.2 Temporal Resolution</h4>
+<section id="temporal-resolution" class="level5">
+<h5 class="anchored" data-anchor-id="temporal-resolution">1.1.2 Temporal Resolution</h5>
 <p>Landsat satellites, particularly the Landsat 8 and Landsat 9 missions, offer a spatial resolution of 15 meters for panchromatic (black and white) imagery, 30 meters for multispectral bands, and 100 meters for thermal bands.The Sentinel satellites include multiple missions with varying capabilities. Sentinel-2, for example, offers higher-resolution data with 10 meters for visible and near-infrared bands, 20 meters for additional infrared bands, and 60 meters for shortwave infrared bands.</p>
 </section>
-<section id="spectral-bands" class="level4">
-<h4 class="anchored" data-anchor-id="spectral-bands">1.1.3 Spectral Bands</h4>
+<section id="spectral-bands" class="level5">
+<h5 class="anchored" data-anchor-id="spectral-bands">1.1.3 Spectral Bands</h5>
 <p>The combined Landsat 7 and Landsat 8 missions provide a revisit time of 8 days at the equator, and this improves with the addition of Landsat 9. The Sentinel-2 mission has two satellites (2A and 2B) working in tandem, offering a revisit time of 5 days at the equator, which is more frequent than Landsat.</p>
 </section>
-<section id="primary-uses" class="level4">
-<h4 class="anchored" data-anchor-id="primary-uses">1.1.4 Primary Uses</h4>
+<section id="primary-uses" class="level5">
+<h5 class="anchored" data-anchor-id="primary-uses">1.1.4 Primary Uses</h5>
 <p>While Sentinel data are also used for applications similar to Landsat, including monitoring deforestation, glacier dynamics, urban sprawl, and land use and land cover change, they have specific tasks tailored for different purposes, such as Sentinel-1 for radar imagery (which can be used to monitor sea ice, oil spills, and land motion), and Sentinel-3 for sea ice monitoring, oil spills, and land motion, Ocean and global land monitoring.</p>
 </section>
 </section>
 </section>
-<section id="spectral-signatures" class="level2">
-<h2 class="anchored" data-anchor-id="spectral-signatures">2 Spectral signatures</h2>
+<section id="spectral-signatures" class="level3">
+<h3 class="anchored" data-anchor-id="spectral-signatures">2 Spectral signatures</h3>
 <p>Spectral feature space is widely used in the analysis and processing of remote sensing data, especially in feature classification, target identification, vegetation monitoring, and water quality analysis. By analysing the reflectance or radiation characteristics of targets in different spectral bands, different materials and objects on the surface can be effectively distinguished and identified. In practical applications, the selection of effective spectral bands is the key to improving classification accuracy. By analysing the spectral feature space, it is possible to determine which bands are best able to distinguish between features or materials of interest. Meanwhile, since remote sensing data may contain a large number of spectral bands, it is very complex and computationally intensive to process this high-dimensional data directly. Therefore, data dimensionality reduction techniques (e.g., principal component analysis, PCA) are often used to reduce the dimensionality of the data while retaining as much information as possible that is needed to distinguish between features.</p>
 </section>
-<section id="grating-processing-and-spectral-spatial-characterisation-considerations" class="level2">
-<h2 class="anchored" data-anchor-id="grating-processing-and-spectral-spatial-characterisation-considerations">3 Grating Processing and Spectral Spatial Characterisation Considerations</h2>
-<section id="issues-to-keep-in-mind-when-raster-processing" class="level3">
-<h3 class="anchored" data-anchor-id="issues-to-keep-in-mind-when-raster-processing">3.1 Issues to keep in mind when raster processing</h3>
+<section id="grating-processing-and-spectral-spatial-characterisation-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="grating-processing-and-spectral-spatial-characterisation-considerations">3 Grating Processing and Spectral Spatial Characterisation Considerations</h3>
+<section id="issues-to-keep-in-mind-when-raster-processing" class="level4">
+<h4 class="anchored" data-anchor-id="issues-to-keep-in-mind-when-raster-processing">3.1 Issues to keep in mind when raster processing</h4>
 <p>Spatial resolution: choosing the right spatial resolution is critical to the results of the analysis. Too low a resolution may result in the loss of important details, while too high a resolution may increase the computational effort and introduce noise.</p>
 <p>Data integration and alignment errors: When using multiple data sources, it is essential to ensure accurate alignment between the different raster layers, as failure to do so may lead to biased analysis results.</p>
 <p>Data volume and processing power: raster data can be very large and require sufficient computational resources for efficient processing. An increase in data volume can significantly affect processing times and storage requirements.</p>
 <p>Radiometric and atmospheric corrections: In order to obtain true surface reflectance, radiometric and atmospheric corrections need to be applied to remotely sensed data to remove effects due to variations in sensor and atmospheric conditions.</p>
 </section>
-<section id="issues-to-be-noted-in-spectral-spatial-characterisation" class="level3">
-<h3 class="anchored" data-anchor-id="issues-to-be-noted-in-spectral-spatial-characterisation">3.2 Issues to be noted in spectral spatial characterisation</h3>
+<section id="issues-to-be-noted-in-spectral-spatial-characterisation" class="level4">
+<h4 class="anchored" data-anchor-id="issues-to-be-noted-in-spectral-spatial-characterisation">3.2 Issues to be noted in spectral spatial characterisation</h4>
 <p>Wavelength band selection: different substances have different reflection and absorption properties at specific wavelength bands. Choosing the most sensitive band to the research target is the key to improving the accuracy of the analysis.</p>
 <p>Spectral mixing: In practice, a pixel may contain a mixture of spectral signals from multiple features, which will affect the extraction and analysis of spectral features.</p>
 <p>Temporal variations: The spectral features of features may change over time, such as seasonal variations, vegetation growth cycles, etc., which need to be taken into account when performing temporal analyses.</p>
 <p>Spectral resolution: Spectral resolution is equally important for identifying and classifying features. Hyperspectral remote sensing data provide more detailed spectral information, but also bring higher data processing requirements.</p>
 </section>
-<section id="general-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="general-considerations">3.3 General Considerations</h3>
+<section id="personal-reflections" class="level4">
+<h4 class="anchored" data-anchor-id="personal-reflections">3.3 Personal Reflections</h4>
+<p>This week has introduced many introductory aspects of remote sensing, and in addition to the considerations already listed above, it is important to be aware of the following issues, and to adopt appropriate strategies and measures in raster processing and spectral spatial characterisation, so that the efficiency and accuracy of the analysis of remotely sensed data can be significantly improved:</p>
 <p>Data quality: data quality directly affects the accuracy of analysis results. Attention needs to be paid to the data acquisition conditions, sensor stability, and the quality of data preprocessing.</p>
 <p>Model and Algorithm Selection: Different analysis objectives and data types may require different models and algorithms. Choosing the right method is critical to obtaining reliable analysis results.</p>
 <p>Validation and Evaluation: Evaluating the accuracy and reliability of the analysis results by comparing and validating them with real data on the ground is an important step to ensure the validity of the research results.</p>
-<p>Comprehensive consideration of the above issues and the adoption of corresponding strategies and measures in raster processing and spectral spatial feature analysis can significantly improve the efficiency and accuracy of remote sensing data analysis.</p>
 
 
+</section>
 </section>
 </section>
 

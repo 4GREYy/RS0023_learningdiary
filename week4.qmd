@@ -1,5 +1,7 @@
 # week4 {.unnumbered}
 
+This week we look at a city and one of its problems and the corresponding policies.
+
 ## 1 New York City - Extreme heat disasters due to the urban heat island effect
 
 ### 1.1 summary
@@ -30,7 +32,7 @@ The chart below visualizes some of the measures that specifically address climat
 
 In one of the three chapters, Protecting Us From Climate Threats, specific strategies are proposed to address extreme heat:
 
-A. Maximize access to indoor cooling:
+#### A. Maximize access to indoor cooling:
 
 • Develop a maximum summer indoor temperature policy to protect all New Yorkers from extreme indoor heat by 2030
 
@@ -38,13 +40,13 @@ A. Maximize access to indoor cooling:
 
 • Reform the Home Energy Assistance Program to cover equipment and energy costs for cooling
 
-B. Cool our built environment:
+#### B. Cool our built environment:
 
 • Install 1 million square feet of cool roofs annually
 
 • Invest in pools and swim safety programs in environmental justice communities
 
-C. Achieve a 30% tree canopy cover:
+#### C. Achieve a 30% tree canopy cover:
 
 • Expand the Tree Risk Management Program, and in 2023, establish the Climber and Pruner Training Program pilot
 
@@ -64,12 +66,16 @@ B. Monitoring greening rates using NDVI data
 
 C. To measure surface temperature using infrared remote sensing data, the following Lansets are commonly used: AVHRR; HCMM; Ground-based thermal scanner; ATLAS.
 
-D. This is in addition to calculating estimated tree canopy cover in urban areas based on aerial imagery and machine learning algorithms; and estimated emissions from heating, cooling and power equipment in residential and non-residential buildings based on Google Maps data. \## reflection
+D. This is in addition to calculating estimated tree canopy cover in urban areas based on aerial imagery and machine learning algorithms; and estimated emissions from heating, cooling and power equipment in residential and non-residential buildings based on Google Maps data.
+
+## 2 reflection
 
 The urban heat island effect exacerbates the effects of global warming, especially in densely populated cities such as New York. Statistics provided, such as the average of 370 heat-related deaths per year in the city and the disproportionately high vulnerability of certain populations, underscored the urgency of addressing the problem. Worryingly, despite high rates of air conditioning use, a significant number of heat stroke-related deaths occur in homes without air conditioning. This points to deeper issues of access and equity, suggesting that solutions must go beyond increasing air conditioning penetration.The strategies outlined in PlaNYC to combat extreme heat are comprehensive and ambitious. They reflect a strong commitment to sustainable development, environmental justice, and public health.
 
 Among other things, the application of data such as the Extreme Heat Vulnerability Index (EHVI) and remote sensing for monitoring greenness and surface temperatures highlights the role of technology in understanding and addressing urban heat. The use of advanced technology and data analysis can help identify the most vulnerable communities, tailor interventions to specific needs, and measure the effectiveness of mitigation strategies over time. However, these solutions can also have issues with scalability, long-term sustainability, and potential unintended consequences. For example, while increasing tree canopy cover is a key strategy for cooling urban environments, it requires ongoing maintenance and community management to ensure its success. Similarly, the emphasis on air conditioning as a cooling solution raises concerns about energy consumption and greenhouse gas emissions, highlighting the need for a simultaneous focus on sustainable energy solutions.
 
-As climate change continues to intensify, the lessons learned in New York City can inform similar efforts globally, underscoring the importance of local action in the global fight against climate change. \## Reference list
+As climate change continues to intensify, the lessons learned in New York City can inform similar efforts globally, underscoring the importance of local action in the global fight against climate change. '
+
+## Reference list
 
 \[1\]New York City's Mayor's Office of Climate and Environmental Justice. n.d. Extreme Heat. Available at: https://climate.cityofnewyork.us/challenges/extreme-heat/ \[2\]New York City Department of Health and Mental Hygiene, 2014. Epi Data Brief, August 14. Available at: https://www.nyc.gov/assets/doh/downloads/pdf/epi/databrief47.pdf \[3\]City of New York Government, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/ \[4\]New York City Department of Health, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/report/1
