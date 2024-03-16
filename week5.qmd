@@ -44,7 +44,7 @@ Here are the results of PCA in practical
 
 ![PCA Result](pic/week5out1.png){width="80%"} ![PCA Result2](pic/week5out2.png){width="80%"}
 
-## Personal Reflections
+## 4 Personal Reflections
 
 -   Awareness and application reflections on GEE:
 

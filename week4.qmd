@@ -2,35 +2,35 @@
 
 ## 1 New York City - Extreme heat disasters due to the urban heat island effect
 
-## 1.1 summary
+### 1.1 summary
 
-New York City, like other dense urban areas, is warmer than its rural and suburban surroundings. As greenhouse gas emissions cause the planet to warm, New York City will experience more frequent, longer-lasting, and more intense heat waves. There could by up to 6x as many days above 90 degrees per year by the 2080s and up to 5x as many heatwaves by the 2080s. Sustained exposure to high temperatures can harm public health, including dehydration, heat exhaustion, heat-stroke, and even death. In fact, extreme heat is the leading cause of weather-related fatalities across the country. In New York City, on average each year, there are approximately 370 heat-related deaths. But all heat deaths are preventable.(New York City's Mayor's Office of Climate and Environmental Justice, n.d.)
+Like other dense urban areas, New York Cityis warmer than its rural and suburban surroundings. As greenhouse gas emissions cause the planet to warm, New York City will experience more frequent, longer-lasting, and more intense heat waves. There could be up to 6x as many days above 90 degrees per year by the 2080s and up to 5x as many heatwaves by the 2080s. Sustained exposure to high temperatures can harm public health, including dehydration, heat exhaustion, heat stroke, and even death. Extreme heat is the leading cause of weather-related fatalities across the country. In New York City, on average each year, there are approximately 370 heat-related deaths. But all heat deaths are preventable.(New York City's Mayor's Office of Climate and Environmental Justice, n.d.)
 
 While heat affects all New Yorkers, some feel the effects more intensely than others. For example, older New Yorkers are highly susceptible to heat-related illnesses, and black New Yorkers are twice as likely as white New Yorkers to die from heat stress.(New York City Department of Health and Mental Hygiene, 2014)
 
-According to the 2022 New York City Heat-Related Mortality Report, 81% of home heat stroke-related deaths occur in homes without air conditioning. While more than 90 per cent of city households reported having air conditioning in 2017, usage in certain communities was as low as 76 per cent。
+According to the 2022 New York City Heat-Related Mortality Report, 81% of home heat stroke-related deaths occur in homes without air conditioning. While more than 90 percent of city households reported having air conditioning in 2017, usage in certain communities was as low as 76 percent.
 
-Outdoor heat risks are also exacerbated in certain parts of the city, where black pavements, dark grey buildings and tree-less streets add to the urban heat island effect, making streets hotter and more dangerous on hot days.
+Outdoor heat risks are also exacerbated in certain parts of the city, where black pavements, dark grey buildings, and tree-less streets add to the urban heat island effect, making streets hotter and more dangerous on hot days.
 
 As climate change and heat waves become more frequent and intense, heat-related health risks will only increase, and controlling urban temperatures to avoid extreme heat is imminent. This includes combating extreme indoor heat and reducing the public realm heat island effect.
 
-## 1.2 Metropolitan policy
+### 1.2 Metropolitan policy
 
-PlaNYC: Getting Sustainability Done
+#### PlaNYC: Getting Sustainability Done
 
-PlaNYC: Getting Sustainability Done is an action plan to build a cleaner, greener, and more just city for all, proactively addressing decades of economic and environmental injustice to achieve a fairer, healthier, and more resilient future. The plan will help ensure that every New Yorker is climate-proofed, has an improved quality of life, and is able to take advantage of the more than 230,000 green economy jobs that New York City will provide by 2030.
+PlaNYC: Getting Sustainability Done is an action plan to build a cleaner, greener, and more just city for all, proactively addressing decades of economic and environmental injustice to achieve a fairer, healthier, and more resilient future. The plan will help ensure that every New Yorker is climate-proofed, has an improved quality of life, and can take advantage of the more than 230,000 green economy jobs that New York City will provide by 2030.
 
 The plan is divided into three main goal chapters, and the following is a table of specific plan profiles:
 
-![](policy.jpg)"
+![](pic/policy.png)
 
-The chart below visualises some of the measures that specifically address climate change and the expected effects.
+The chart below visualizes some of the measures that specifically address climate change and the expected effects.
 
-![](policy1.jpg)"
+![](pic/policy1.png)
 
 In one of the three chapters, Protecting Us From Climate Threats, specific strategies are proposed to address extreme heat:
 
-1.  Maximize access to indoor cooling:
+A. Maximize access to indoor cooling:
 
 • Develop a maximum summer indoor temperature policy to protect all New Yorkers from extreme indoor heat by 2030
 
@@ -38,13 +38,13 @@ In one of the three chapters, Protecting Us From Climate Threats, specific strat
 
 • Reform the Home Energy Assistance Program to cover equipment and energy costs for cooling
 
-2.  Cool our built environment:
+B. Cool our built environment:
 
 • Install 1 million square feet of cool roofs annually
 
 • Invest in pools and swim safety programs in environmental justice communities
 
-3.  Achieve a 30% tree canopy cover:
+C. Achieve a 30% tree canopy cover:
 
 • Expand the Tree Risk Management Program, and in 2023, establish the Climber and Pruner Training Program pilot
 
@@ -52,7 +52,7 @@ In one of the three chapters, Protecting Us From Climate Threats, specific strat
 
 • Incentivize New Yorkers to steward green spaces by 2035 • Maximize tree preservation and planting opportunities, including in areas with challenging site conditions, by 2035
 
-## 1.3 Application
+### 1.3 Application
 
 The following describes the application of several types of data that may be used:
 
@@ -64,8 +64,12 @@ B. Monitoring greening rates using NDVI data
 
 C. To measure surface temperature using infrared remote sensing data, the following Lansets are commonly used: AVHRR; HCMM; Ground-based thermal scanner; ATLAS.
 
-D.This is in addition to calculating estimated tree canopy cover in urban areas based on aerial imagery and machine learning algorithms; and estimated emissions from heating, cooling and power equipment in residential and non-residential buildings based on Google Maps data.
+D. This is in addition to calculating estimated tree canopy cover in urban areas based on aerial imagery and machine learning algorithms; and estimated emissions from heating, cooling and power equipment in residential and non-residential buildings based on Google Maps data. \## reflection
 
-Reference list
+The urban heat island effect exacerbates the effects of global warming, especially in densely populated cities such as New York. Statistics provided, such as the average of 370 heat-related deaths per year in the city and the disproportionately high vulnerability of certain populations, underscored the urgency of addressing the problem. Worryingly, despite high rates of air conditioning use, a significant number of heat stroke-related deaths occur in homes without air conditioning. This points to deeper issues of access and equity, suggesting that solutions must go beyond increasing air conditioning penetration.The strategies outlined in PlaNYC to combat extreme heat are comprehensive and ambitious. They reflect a strong commitment to sustainable development, environmental justice, and public health.
+
+Among other things, the application of data such as the Extreme Heat Vulnerability Index (EHVI) and remote sensing for monitoring greenness and surface temperatures highlights the role of technology in understanding and addressing urban heat. The use of advanced technology and data analysis can help identify the most vulnerable communities, tailor interventions to specific needs, and measure the effectiveness of mitigation strategies over time. However, these solutions can also have issues with scalability, long-term sustainability, and potential unintended consequences. For example, while increasing tree canopy cover is a key strategy for cooling urban environments, it requires ongoing maintenance and community management to ensure its success. Similarly, the emphasis on air conditioning as a cooling solution raises concerns about energy consumption and greenhouse gas emissions, highlighting the need for a simultaneous focus on sustainable energy solutions.
+
+As climate change continues to intensify, the lessons learned in New York City can inform similar efforts globally, underscoring the importance of local action in the global fight against climate change. \## Reference list
 
 \[1\]New York City's Mayor's Office of Climate and Environmental Justice. n.d. Extreme Heat. Available at: https://climate.cityofnewyork.us/challenges/extreme-heat/ \[2\]New York City Department of Health and Mental Hygiene, 2014. Epi Data Brief, August 14. Available at: https://www.nyc.gov/assets/doh/downloads/pdf/epi/databrief47.pdf \[3\]City of New York Government, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/ \[4\]New York City Department of Health, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/report/1
