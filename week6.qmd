@@ -1,1 +1,39 @@
+# Week6 {.unnumbered}
 
+## 1 Summary
+
+This week's focus is on supervised classification of images in the machine learning part of Google Earth Engine (GEE). Supervised classification is the process of using labelled training data to train a classifier, and then applying this classifier to an image or collection of images for classification.CART (Classification and Regression Trees) is one of the commonly used supervised classification algorithms.
+
+### 1.1 CART
+
+CART is a decision tree algorithm that builds a decision tree by recursively partitioning the dataset into smaller subsets. At each split point (or node), it selects the feature and split threshold that best reduces the impurity (for classification problems) or variance (for regression problems) of the target variable. For classification problems, this means that the algorithm tries to find the features and thresholds that most clearly distinguish between different classes. Ultimately, this process generates a tree structure where the leaf nodes represent the final classification decisions.
+
+![](pic/cart.png)
+
+The following training data was selected before classification:
+
+::: {style="text-align:center;"}
+![](pic/data.png){width="60%"}
+:::
+
+### 1.2 Random Forest
+
+Random Forest is an integrated learning method that performs classification or regression by constructing multiple decision trees and aggregating their predictions. Each tree is trained on a random subset of the dataset and randomness is also applied in the selection of segmentation features. Advantages of this approach include high accuracy, robustness to overfitting, and the ability to handle large numbers of features and data points. Random forests are particularly well suited for dealing with remote sensing data, which typically have high-dimensional feature spaces and complex data structures.
+
+![](pic/random.png)
+
+Here are the results of the random forest classification:
+
+::: {style="text-align:center;"}
+![](pic/result.png){width="60%"}
+:::
+
+## 2 Application
+
+Ghorbanian, Arsalan et al. (2021) present a detailed mapping of the mangrove ecosystem in the Hara protected area, Qeshm, Iran, using Sentinel-1 and Sentinel-2 satellite imagery combined with the Random Forest algorithm on the Google Earth Engine platform. Achieving high overall accuracy and kappa coefficient, the study underscores the effectiveness of integrating multi-source remote sensing data for precise mangrove ecosystem mapping. Seasonal features and the synergy of optical and synthetic aperture radar data played crucial roles in enhancing the map's reliability, illustrating the approach's potential for broad application in conservation and sustainable management of mangrove ecosystems.
+
+The following are the outputs of the model:
+
+![](pic/example.png)
+
+Phan Thanh Noi and Martin Kappas(2017) also compares Random Forest, k-nearest neighbor, and support vector machine classifiers for land cover classification using Sentinel-2 imagery within GEE, showcasing the utility of Random Forest in handling complex land cover classification tasks.

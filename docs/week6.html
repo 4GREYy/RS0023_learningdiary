@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>learningdirary – week6</title>
+<title>learningdirary - Week6</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week6.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">week6.html</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week6.html">Week6</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">week6.html</span></span></a>
+ <span class="menu-text">Week6</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -152,14 +152,61 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">1 Summary</a>
+  <ul class="collapse">
+  <li><a href="#cart" id="toc-cart" class="nav-link" data-scroll-target="#cart">1.1 CART</a></li>
+  <li><a href="#random-forest" id="toc-random-forest" class="nav-link" data-scroll-target="#random-forest">1.2 Random Forest</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Week6</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">1 Summary</h2>
+<p>This week’s focus is on supervised classification of images in the machine learning part of Google Earth Engine (GEE). Supervised classification is the process of using labelled training data to train a classifier, and then applying this classifier to an image or collection of images for classification.CART (Classification and Regression Trees) is one of the commonly used supervised classification algorithms.</p>
+<section id="cart" class="level3">
+<h3 class="anchored" data-anchor-id="cart">1.1 CART</h3>
+<p>CART is a decision tree algorithm that builds a decision tree by recursively partitioning the dataset into smaller subsets. At each split point (or node), it selects the feature and split threshold that best reduces the impurity (for classification problems) or variance (for regression problems) of the target variable. For classification problems, this means that the algorithm tries to find the features and thresholds that most clearly distinguish between different classes. Ultimately, this process generates a tree structure where the leaf nodes represent the final classification decisions.</p>
+<p><img src="pic/cart.png" class="img-fluid"></p>
+<p>The following training data was selected before classification:</p>
+<div style="text-align:center;">
+<p><img src="pic/data.png" class="img-fluid" style="width:50.0%"></p>
+</div>
+</section>
+<section id="random-forest" class="level3">
+<h3 class="anchored" data-anchor-id="random-forest">1.2 Random Forest</h3>
+<p>Random Forest is an integrated learning method that performs classification or regression by constructing multiple decision trees and aggregating their predictions. Each tree is trained on a random subset of the dataset and randomness is also applied in the selection of segmentation features. Advantages of this approach include high accuracy, robustness to overfitting, and the ability to handle large numbers of features and data points. Random forests are particularly well suited for dealing with remote sensing data, which typically have high-dimensional feature spaces and complex data structures.</p>
+<p><img src="pic/random.png" class="img-fluid"></p>
+<p>Here are the results of the random forest classification:</p>
+<p><img src="pic/result.png" class="img-fluid"></p>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
