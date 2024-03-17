@@ -58,9 +58,8 @@ D, Agricultural applications GEE can be used to monitor crop growth, assess the 
 
 E.  Climate change research GEE provides a powerful tool for global warming and climate change research. Scientists can use GEE to analyse trends in glacier retreat, sea level rise, temperature change and extreme weather events, as well as the impact of these changes on biodiversity and human society.
 
-```{=html}
 <!-- -->
-```
+
 6.  Disaster response and recovery In the aftermath of a natural disaster, GEE can quickly provide satellite imagery of the affected area to help assess the impact of the disaster, such as the extent of flood inundation, earthquake damage and hurricane impacts. This is very useful for disaster emergency response and recovery planning.
 
 The wide range of applications of GEE is attributed to its ability to handle large amounts of geospatial data, its rich data resources and its highly efficient.

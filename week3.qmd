@@ -40,23 +40,23 @@ PCA is a statistical technique that reduces the dimensionality of data by transf
 
 Below I will describe specific applications of the four different analyses:
 
-A. Application of ratio analysis: vegetation monitoring 
+A. Application of ratio analysis: vegetation monitoring
 
 In vegetation health and growth monitoring, ratio analysis is often used to highlight differences between vegetation and other surface types. For example, the normalised vegetation index (NDVI), which is obtained by calculating the ratio of the near-infrared band to the red band, is a useful indicator of the health and biomass of vegetation. This method is widely used in agricultural management, forest monitoring and ecological research.
 
-B. Filtering Applications: Urban Planning 
+B. Filtering Applications: Urban Planning
 
 In urban planning and building identification, filtering techniques can help remove image noise and improve the clarity of building edges. By applying spatial filters, such as edge enhancement filters, city layouts and road networks can be identified more clearly to support urban planning and traffic management.
 
-C. Texture Analysis Application: Land Use Classification 
+C. Texture Analysis Application: Land Use Classification
 
 Texture analysis is able to extract texture information from images, which can be used to distinguish areas with different surface texture characteristics. This is particularly useful in land use and land cover classification, such as distinguishing between urban built-up areas, agricultural land and forests. Texture features increase the accuracy of classification, especially in high-resolution satellite image analysis.
 
-D. Data fusion applications: improving image resolution 
+D. Data fusion applications: improving image resolution
 
 Data fusion techniques, such as band fusion (Pansharpening), can combine high-resolution panchromatic images with low-resolution multispectral images to produce higher-resolution images. This is critical for applications such as detailed map production, fine agricultural monitoring and urban environmental assessment, as it provides richer surface information.
 
-E. Principal component analysis applications: environmental monitoring 
+E. Principal component analysis applications: environmental monitoring
 
 In environmental monitoring and change detection, PCA can be used to reduce redundant information in a dataset while highlighting the most important signals of change. For example, in analysing changes in surface cover or environmental degradation, PCA helps to identify the areas with the most significant changes, thus guiding the implementation of resource management and environmental protection measures.
 

@@ -56,7 +56,7 @@ Temporal variations: The spectral features of features may change over time, suc
 
 Spectral resolution: Spectral resolution is equally important for identifying and classifying features. Hyperspectral remote sensing data provide more detailed spectral information, but also bring higher data processing requirements.
 
-#### 3.3 Personal Reflections
+#### Personal Reflections
 
 This week has introduced many introductory aspects of remote sensing, and in addition to the considerations already listed above, it is important to be aware of the following issues, and to adopt appropriate strategies and measures in raster processing and spectral spatial characterisation, so that the efficiency and accuracy of the analysis of remotely sensed data can be significantly improved:
 
@@ -65,4 +65,3 @@ Data quality: data quality directly affects the accuracy of analysis results. At
 Model and Algorithm Selection: Different analysis objectives and data types may require different models and algorithms. Choosing the right method is critical to obtaining reliable analysis results.
 
 Validation and Evaluation: Evaluating the accuracy and reliability of the analysis results by comparing and validating them with real data on the ground is an important step to ensure the validity of the research results.
-
