@@ -37,3 +37,9 @@ The following are the outputs of the model:
 ![](pic/example.png)
 
 Phan Thanh Noi and Martin Kappas(2017) also compares Random Forest, k-nearest neighbor, and support vector machine classifiers for land cover classification using Sentinel-2 imagery within GEE, showcasing the utility of Random Forest in handling complex land cover classification tasks.
+
+## 3 Reflection
+
+Since the classification results I made were less accurate, I analysed possible reasons such as: insufficient training samples or not representing the diversity of the whole study area; inappropriate feature selection that fails to capture the differences between different feature classes; insufficient spatial resolution to differentiate between feature variations within a small area; insufficient image pre-processing, such as cloud occlusion, shadows or lighting conditions that affect the spectral properties of features; classification model with parameters are not set appropriately, such as the number or depth of trees. In order to solve these problems and make a better image classification model, more detailed sample selection, feature engineering, improvement of the preprocessing process, or adjustment of model parameters may be required.
+
+

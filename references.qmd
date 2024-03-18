@@ -2,3 +2,7 @@
 
 ::: {#refs}
 :::
+
+Ghorbanian, A., Zaghian, S., Asiyabi, R.M., Amani, M., Mohammadzadeh, A. and Jamali, S., 2021. Mangrove Ecosystem Mapping Using Sentinel-1 and Sentinel-2 Satellite Images and Random Forest Algorithm in Google Earth Engine. Remote Sensing, 13(2565). Available at: https://doi.org/10.3390/rs13132565
+
+Noi, P.T. & Kappas, M., 2017. Comparison of random forest, k-nearest neighbor, and support vector machine classifiers for land cover classification using sentinel-2 imagery. Sensors, 18(1). 
