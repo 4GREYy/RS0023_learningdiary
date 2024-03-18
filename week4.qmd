@@ -54,7 +54,7 @@ In one of the three chapters, Protecting Us From Climate Threats, specific strat
 
 • Incentivize New Yorkers to steward green spaces by 2035 • Maximize tree preservation and planting opportunities, including in areas with challenging site conditions, by 2035
 
-### 1.3 Application
+## 2 Application
 
 The following describes the application of several types of data that may be used:
 
@@ -68,7 +68,7 @@ C. To measure surface temperature using infrared remote sensing data, the follow
 
 D. This is in addition to calculating estimated tree canopy cover in urban areas based on aerial imagery and machine learning algorithms; and estimated emissions from heating, cooling and power equipment in residential and non-residential buildings based on Google Maps data.
 
-## 2 reflection
+## 3 reflection
 
 The urban heat island effect exacerbates the effects of global warming, especially in densely populated cities such as New York. Statistics provided, such as the average of 370 heat-related deaths per year in the city and the disproportionately high vulnerability of certain populations, underscored the urgency of addressing the problem. Worryingly, despite high rates of air conditioning use, a significant number of heat stroke-related deaths occur in homes without air conditioning. This points to deeper issues of access and equity, suggesting that solutions must go beyond increasing air conditioning penetration.The strategies outlined in PlaNYC to combat extreme heat are comprehensive and ambitious. They reflect a strong commitment to sustainable development, environmental justice, and public health.
 
@@ -76,6 +76,3 @@ Among other things, the application of data such as the Extreme Heat Vulnerabili
 
 As climate change continues to intensify, the lessons learned in New York City can inform similar efforts globally, underscoring the importance of local action in the global fight against climate change. '
 
-## Reference list
-
-\[1\]New York City's Mayor's Office of Climate and Environmental Justice. n.d. Extreme Heat. Available at: https://climate.cityofnewyork.us/challenges/extreme-heat/ \[2\]New York City Department of Health and Mental Hygiene, 2014. Epi Data Brief, August 14. Available at: https://www.nyc.gov/assets/doh/downloads/pdf/epi/databrief47.pdf \[3\]City of New York Government, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/ \[4\]New York City Department of Health, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/report/1

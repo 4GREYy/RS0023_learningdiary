@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
+<link href="./week7.html" rel="next">
 <link href="./week5.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -143,6 +143,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">week7</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">week8</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
@@ -162,6 +174,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#cart" id="toc-cart" class="nav-link" data-scroll-target="#cart">1.1 CART</a></li>
   <li><a href="#random-forest" id="toc-random-forest" class="nav-link" data-scroll-target="#random-forest">1.2 Random Forest</a></li>
   </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application">2 Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">3 Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -194,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="pic/cart.png" class="img-fluid"></p>
 <p>The following training data was selected before classification:</p>
 <div style="text-align:center;">
-<p><img src="pic/data.png" class="img-fluid" style="width:50.0%"></p>
+<p><img src="pic/data.png" class="img-fluid" style="width:60.0%"></p>
 </div>
 </section>
 <section id="random-forest" class="level3">
@@ -202,10 +216,23 @@ ul.task-list li input[type="checkbox"] {
 <p>Random Forest is an integrated learning method that performs classification or regression by constructing multiple decision trees and aggregating their predictions. Each tree is trained on a random subset of the dataset and randomness is also applied in the selection of segmentation features. Advantages of this approach include high accuracy, robustness to overfitting, and the ability to handle large numbers of features and data points. Random forests are particularly well suited for dealing with remote sensing data, which typically have high-dimensional feature spaces and complex data structures.</p>
 <p><img src="pic/random.png" class="img-fluid"></p>
 <p>Here are the results of the random forest classification:</p>
-<p><img src="pic/result.png" class="img-fluid"></p>
-
-
+<div style="text-align:center;">
+<p><img src="pic/result.png" class="img-fluid" style="width:60.0%"></p>
+</div>
 </section>
+</section>
+<section id="application" class="level2">
+<h2 class="anchored" data-anchor-id="application">2 Application</h2>
+<p>Ghorbanian, Arsalan et al.&nbsp;(2021) present a detailed mapping of the mangrove ecosystem in the Hara protected area, Qeshm, Iran, using Sentinel-1 and Sentinel-2 satellite imagery combined with the Random Forest algorithm on the Google Earth Engine platform. Achieving high overall accuracy and kappa coefficient, the study underscores the effectiveness of integrating multi-source remote sensing data for precise mangrove ecosystem mapping. Seasonal features and the synergy of optical and synthetic aperture radar data played crucial roles in enhancing the map’s reliability, illustrating the approach’s potential for broad application in conservation and sustainable management of mangrove ecosystems.</p>
+<p>The following are the outputs of the model:</p>
+<p><img src="pic/example.png" class="img-fluid"></p>
+<p>Phan Thanh Noi and Martin Kappas(2017) also compares Random Forest, k-nearest neighbor, and support vector machine classifiers for land cover classification using Sentinel-2 imagery within GEE, showcasing the utility of Random Forest in handling complex land cover classification tasks.</p>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">3 Reflection</h2>
+<p>Since the classification results I made were less accurate, I analysed possible reasons such as: insufficient training samples or not representing the diversity of the whole study area; inappropriate feature selection that fails to capture the differences between different feature classes; insufficient spatial resolution to differentiate between feature variations within a small area; insufficient image pre-processing, such as cloud occlusion, shadows or lighting conditions that affect the spectral properties of features; classification model with parameters are not set appropriately, such as the number or depth of trees. In order to solve these problems and make a better image classification model, more detailed sample selection, feature engineering, improvement of the preprocessing process, or adjustment of model parameters may be required.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -449,8 +476,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week7.html" class="pagination-link">
+        <span class="nav-page-text">week7</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
