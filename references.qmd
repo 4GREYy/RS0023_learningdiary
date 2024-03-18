@@ -16,4 +16,8 @@ Sall, I. et al. (2021) Estimating inundation of small waterbodies with sub‐pix
 
 Hu, T. et al. (2018) Quantitative assessment of urban wetland dynamics using high spatial resolution satellite imagery between 2000 and 2013. Scientific reports. [Online] 8 (1), 7409–7410.
 
+Hazaymeh, K. & Hassan, Q. K. (2015) Fusion of MODIS and Landsat-8 surface temperature images: A new approach. PloS one. [Online] 10 (3), e0117755-.
+
+Vargas Zeppetello, L. R. et al. (2022) Probabilistic projections of increased heat stress driven by climate change. Communications earth & environment. [Online] 3 (1), 1–7.
+
 :::

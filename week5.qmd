@@ -42,7 +42,8 @@ In Google Earth Engine (GEE), Principal Component Analysis (PCA) is a powerful t
 
 Here are the results of PCA in practical
 
-![PCA Result](pic/week5out1.png){width="80%"} ![PCA Result2](pic/week5out2.png){width="80%"}
+![PCA Result](pic/week5out1.png){width="80%"} 
+![PCA Result2](pic/week5out2.png){width="80%"}
 
 ## 2 Applications
 
