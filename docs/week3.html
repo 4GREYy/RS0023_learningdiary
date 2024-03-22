@@ -246,14 +246,45 @@ ul.task-list li input[type="checkbox"] {
 <p>Below I will describe specific applications of the four different analyses:</p>
 <p>A. Application of ratio analysis: vegetation monitoring</p>
 <p>In vegetation health and growth monitoring, ratio analysis is often used to highlight differences between vegetation and other surface types. For example, the normalised vegetation index (NDVI), which is obtained by calculating the ratio of the near-infrared band to the red band, is a useful indicator of the health and biomass of vegetation. This method is widely used in agricultural management, forest monitoring and ecological research.</p>
+<p>For example, Bajocco, S. et al.(2022)’s study explores the relationship between the Normalized Difference Vegetation Index (NDVI) and the Leaf Area Index (LAI) in agricultural settings. It aims to develop a comprehensive library of conversion equations for estimating LAI from NDVI data, based on empirical relationships established through extensive literature review and analysis.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pic/appndvi.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Leaf area index (LAI) seasonal profile of the case studies, computed from normalized difference vegetation index (NDVI, dots) values according to the equations derived from the following combinations of attributes: (top) crop- and biome-specific equations; (middle) crop- and spatial resolution-specific equations; (bottom) biome- and spatial resolution-specific equations. The grey shadows indicate the 5–95th (light grey) and the 25–75th percentile (dark grey) of the LAI values obtained from the equations considered.</figcaption>
+</figure>
+</div>
 <p>B. Filtering Applications: Urban Planning</p>
 <p>In urban planning and building identification, filtering techniques can help remove image noise and improve the clarity of building edges. By applying spatial filters, such as edge enhancement filters, city layouts and road networks can be identified more clearly to support urban planning and traffic management.</p>
 <p>C. Texture Analysis Application: Land Use Classification</p>
 <p>Texture analysis is able to extract texture information from images, which can be used to distinguish areas with different surface texture characteristics. This is particularly useful in land use and land cover classification, such as distinguishing between urban built-up areas, agricultural land and forests. Texture features increase the accuracy of classification, especially in high-resolution satellite image analysis.</p>
+<p>This paper by Przemysław Kupidura(2019) investigates the effectiveness of various texture analysis methods, including the gray level co-occurrence matrix (GLCM), Laplace filters, and granulometric analysis, for improving land use/cover classification.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pic/apptex.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Subsets of images of selected classification variants (test image 3: Sentinel-2): (a) spectral, (b) spectral + gran10, (c) spectral + GLCM7, (d) spectral+ Laplacian, (e) original satellite image.</figcaption>
+</figure>
+</div>
 <p>D. Data fusion applications: improving image resolution</p>
 <p>Data fusion techniques, such as band fusion (Pansharpening), can combine high-resolution panchromatic images with low-resolution multispectral images to produce higher-resolution images. This is critical for applications such as detailed map production, fine agricultural monitoring and urban environmental assessment, as it provides richer surface information.</p>
-<p>E. Principal component analysis applications: environmental monitoring</p>
-<p>In environmental monitoring and change detection, PCA can be used to reduce redundant information in a dataset while highlighting the most important signals of change. For example, in analysing changes in surface cover or environmental degradation, PCA helps to identify the areas with the most significant changes, thus guiding the implementation of resource management and environmental protection measures.</p>
+<p>This study presents a convolutional neural network (CNN) based framework for pansharpening, which is a data fusion technique aimed at enhancing the spatial resolution of multispectral images using high-resolution panchromatic images(Ciotola, M. &amp; Scarpa, G., 2023).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pic/appcnn.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Pansharpening results on the WorldView-3 Adelaide image (crop C).</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pic/appcnn1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Pansharpening results on the WorldView-2 Washington image (crop B).</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pic/appcnn2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Pansharpening results on the GeoEye-1 Washington image (crop B).</figcaption>
+</figure>
+</div>
 </section>
 <section id="personal-reflections" class="level2">
 <h2 class="anchored" data-anchor-id="personal-reflections">3 Personal Reflections</h2>

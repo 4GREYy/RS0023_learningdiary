@@ -56,17 +56,15 @@ In one of the three chapters, Protecting Us From Climate Threats, specific strat
 
 ## 2 Application
 
-The following describes the application of several types of data that may be used:
+Extreme Heat Vulnerability Index (EHVI): The EHVI is a fused dataset consisting of census data and remotely sensed variables, which are examined in relation to geocoded mortality data.
 
-A. Extreme Heat Vulnerability Index (EHVI): The EHVI is a fused dataset consisting of census data and remotely sensed variables, which are examined in relation to geocoded mortality data.
+Johnson DP et al.(2014)'s research examines heat-related health risks in the context of climate change and human health.
 
-Development of spatially specific vulnerability models that are useful for decision support during extreme heat events (EHE). Findings on such spatially explicit models lead to efforts in preparing for and mitigating heat-related vulnerabilities and potential adaptations. It helps government departments to analyse the causes of heat-related vulnerability and develop relevant support policies. Emphasis is currently being placed on the development of spatially specific vulnerability models, which are useful for decision support during extreme heat events (EHE). Research results concerning such spatially-explicit models lead efforts in preparation and mitigation of heat-related vulnerability and potential adaptation.
+![Landsat 5 Thermal Imagery Percentiles, Philadelphia 2011](pic/appwk4.png)
 
-B. Monitoring greening rates using NDVI data
+![Chicago EHVI 1990, 2000 and 2010 Map.](pic/appwk41.png)
 
-C. To measure surface temperature using infrared remote sensing data, the following Lansets are commonly used: AVHRR; HCMM; Ground-based thermal scanner; ATLAS.
-
-D. This is in addition to calculating estimated tree canopy cover in urban areas based on aerial imagery and machine learning algorithms; and estimated emissions from heating, cooling and power equipment in residential and non-residential buildings based on Google Maps data.
+In addition to this, development of spatially specific vulnerability models that are useful for decision support during extreme heat events (EHE). Findings on such spatially explicit models lead to efforts in preparing for and mitigating heat-related vulnerabilities and potential adaptations. It helps government departments to analyse the causes of heat-related vulnerability and develop relevant support policies. Emphasis is currently being placed on the development of spatially specific vulnerability models, which are useful for decision support during extreme heat events (EHE). Research results concerning such spatially-explicit models lead efforts in preparation and mitigation of heat-related vulnerability and potential adaptation.
 
 ## 3 reflection
 

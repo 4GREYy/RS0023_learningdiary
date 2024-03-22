@@ -1,9 +1,13 @@
 # Introduction {.unnumbered}
 
+I am honored to have a academic journey at UCL CASA, especially gaining valuable knowledge in the Remote Sensing course. This course has enlightened me on the advanced applications of remote sensing technologies and their significance in urban planning and environmental monitoring. I am grateful for every practical opportunity and challenge that deepened my understanding of this field. Thanks to the support from all professors and classmates, this experience will be a treasured asset to me.
+
 This is the coursework for CASA0023 emotely sensing cities and environments - learning diary
 
 My name is Yilun Xu.
 
 My student number is 22103173.
 
-![](pic/welcome.png)"
+![](pic/welcome.png)
+
+By the way, the teachers are very handsome and charming!

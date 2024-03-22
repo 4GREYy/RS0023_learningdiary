@@ -1,6 +1,6 @@
 # Week2 {.unnumbered}
 
-Here is a short presentation discussing OLI and TIRS
+Here is a short presentation discussing OLI and TIRS.
 
 ```{r echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(

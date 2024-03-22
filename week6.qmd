@@ -1,8 +1,10 @@
 # Week6 {.unnumbered}
 
+This week's focus is on supervised classification of images in the machine learning part of Google Earth Engine (GEE).
+
 ## 1 Summary
 
-This week's focus is on supervised classification of images in the machine learning part of Google Earth Engine (GEE). Supervised classification is the process of using labelled training data to train a classifier, and then applying this classifier to an image or collection of images for classification.CART (Classification and Regression Trees) is one of the commonly used supervised classification algorithms.
+Supervised classification is the process of using labelled training data to train a classifier, and then applying this classifier to an image or collection of images for classification.CART (Classification and Regression Trees) is one of the commonly used supervised classification algorithms.
 
 ### 1.1 CART
 
@@ -13,7 +15,7 @@ CART is a decision tree algorithm that builds a decision tree by recursively par
 The following training data was selected before classification:
 
 ::: {style="text-align:center;"}
-![](pic/data.png){width="60%"}
+![](pic/data.png){width="80%"}
 :::
 
 ### 1.2 Random Forest
@@ -25,7 +27,7 @@ Random Forest is an integrated learning method that performs classification or r
 Here are the results of the random forest classification:
 
 ::: {style="text-align:center;"}
-![](pic/result.png){width="60%"}
+![](pic/result.png){width="80%"}
 :::
 
 ## 2 Application

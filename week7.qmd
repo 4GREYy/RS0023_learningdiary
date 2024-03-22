@@ -1,5 +1,7 @@
 # week7 {.unnumbered}
 
+In this week we will look at some more advanced classification methods and how to do change detection.
+
 ## 1 Summary
 
 ### 1.1 sub-pixel analysis
@@ -24,7 +26,7 @@ Analysis: OBIA allows for more sophisticated analyses, such as change detection,
 
 2.1.1 **Remote Sensing and Satellite Imagery**: In remote sensing, sub-pixel analysis is used to identify materials, land use, or vegetation types within a single pixel, especially in cases where the area of interest is smaller than the spatial resolution of the satellite sensor. This can enhance the accuracy of land cover classification maps. SW Myint's(2006) research demonstrates the application of subpixel classifiers with expert system rules to estimate the distribution of various vegetation types in urban areas. Using Landsat TM data from Norman, Oklahoma, the study investigated the correlation between the output of the subpixel classifier and reference data for different types of vegetation, including weeds, artificial grasses, riparian vegetation, trees, and plants. Agriculture. Results showed that artificial grass and agriculture had the highest correlations with reference data, indicating the reliability of these categories.
 
-![](pic/final.png)
+![Final map with all five vegetation distributions derived from the IMAGINE sub‐pixel analysis and expert system rules. Note: The original map contains forty levels of classes (8 levels×5 vegetation classes = 40) and only eight levels of distributions for all classes are shown for better visualization and interpretation.](pic/final.png)
 
 2.1.2 **Environmental Monitoring**: It helps in monitoring changes in environmental features, such as deforestation, water quality, or urban sprawl, by detecting subtle changes in the spectral signatures within pixels over time. For example, Ibrahima Sall et al.(2021) used sub-pixel analysis techniques of Landsat imagery to estimate inundation of small water bodies, which included long-term trends in surface waters and assessment of common aridity indices.
 
@@ -36,7 +38,7 @@ Analysis: OBIA allows for more sophisticated analyses, such as change detection,
 
 Hu, T. et al.(2018) presents a detailed study on the use of object-based image analysis (OBIA) and nearest neighbor classification to map and monitor land use and cover (LULC) changes in the Hangzhou Xixi Wetland, China, over a period from 2000 to 2013. The study highlights the advantages of using multi-temporal high spatial resolution satellite imagery combined with OBIA for accurate and economical mapping and analysis of changes in LULC over time.
 
-![](pic/OBIA.png)
+![Urban wetland loss from 2000 to 2013.](pic/OBIA.png)
 
 ## 3 Reflection
 

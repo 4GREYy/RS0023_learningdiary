@@ -1,5 +1,7 @@
 # Week5 {.unnumbered}
 
+This week, we're focusing on various aspects of GEE's introduction and application.
+
 ## 1 Summary
 
 ### 1.1 GEE
@@ -42,8 +44,7 @@ In Google Earth Engine (GEE), Principal Component Analysis (PCA) is a powerful t
 
 Here are the results of PCA in practical
 
-![PCA Result](pic/week5out1.png){width="80%"} 
-![PCA Result2](pic/week5out2.png){width="80%"}
+![PCA Result](pic/week5out1.png){width="80%"} ![PCA Result2](pic/week5out2.png){width="80%"}
 
 ## 2 Applications
 
@@ -53,17 +54,21 @@ A. Forest and vegetation monitoring GEE can be used to monitor forest cover chan
 
 B. Water resources management Using GEE, it is possible to assess changes in water levels in rivers, lakes and reservoirs, monitor drought and flood events, and analyse pollution of water bodies. This is essential for water resources planning, the establishment of disaster early warning systems and improving the efficiency of water quality management.
 
-C.  Analysis of urban heat island effect Thermal infrared remote sensing data on the GEE platform can be used to identify and analyse the urban heat island effect. By comparing the surface temperature of the city with that of the surrounding rural areas, researchers can assess the effectiveness of urban planning in mitigating the heat island effect, and guide decisions such as urban greening and the selection of building materials.
+C. Analysis of urban heat island effect Thermal infrared remote sensing data on the GEE platform can be used to identify and analyse the urban heat island effect. By comparing the surface temperature of the city with that of the surrounding rural areas, researchers can assess the effectiveness of urban planning in mitigating the heat island effect, and guide decisions such as urban greening and the selection of building materials.
 
-D, Agricultural applications GEE can be used to monitor crop growth, assess the effects of drought and predict crop yields. By analysing satellite images in different bands, crop health indicators such as Normalised Vegetation Index (NDVI) can be extracted to help farmers optimise irrigation, fertiliser application and pest management.
+D. Agricultural applications GEE can be used to monitor crop growth, assess the effects of drought and predict crop yields. By analysing satellite images in different bands, crop health indicators such as Normalised Vegetation Index (NDVI) can be extracted to help farmers optimise irrigation, fertiliser application and pest management.
 
-E.  Climate change research GEE provides a powerful tool for global warming and climate change research. Scientists can use GEE to analyse trends in glacier retreat, sea level rise, temperature change and extreme weather events, as well as the impact of these changes on biodiversity and human society.
+E. Climate change research GEE provides a powerful tool for global warming and climate change research. Scientists can use GEE to analyse trends in glacier retreat, sea level rise, temperature change and extreme weather events, as well as the impact of these changes on biodiversity and human society.
 
-<!-- -->
-
-6.  Disaster response and recovery In the aftermath of a natural disaster, GEE can quickly provide satellite imagery of the affected area to help assess the impact of the disaster, such as the extent of flood inundation, earthquake damage and hurricane impacts. This is very useful for disaster emergency response and recovery planning.
+F. Disaster response and recovery In the aftermath of a natural disaster, GEE can quickly provide satellite imagery of the affected area to help assess the impact of the disaster, such as the extent of flood inundation, earthquake damage and hurricane impacts. This is very useful for disaster emergency response and recovery planning.
 
 The wide range of applications of GEE is attributed to its ability to handle large amounts of geospatial data, its rich data resources and its highly efficient.
+
+The study of Mitchell, A. L. et al. (2017) reviews various remote sensing technologies in the context of MRV and REDD+. It evaluates the operational readiness of these technologies and identifies research and development needs to advance methods for use in national forest monitoring systems.
+
+![The global forest condition, as visualised using satellite derived and modelled current and potential forest cover](pic/appwk51.png)
+
+![Use of multi-temporal LiDAR to quantify canopy height and AGB dynamics in tropical peatland forest: a Transect through burnt and adjacent undisturbed peat swamp forest. b Changes in canopy height and AGB associated with different forest conditions; and photographs of c burnt forest, d transition area and e undisturbed forest](pic/appwk5.png)
 
 ## 3 Personal Reflections
 

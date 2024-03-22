@@ -64,9 +64,11 @@ Spectral resolution: Spectral resolution is equally important for identifying an
 
 The study of Hemati, M.(2021) surveys 50 years of Landsat data applications, emphasizing the role of Landsat in monitoring Earth's surface changes. It underscores the importance of Landsat for governmental and international organizations in monitoring and understanding the dynamics of the Earth's surface, crucial for management, scientific inquiry, and policy.
 
-![](pic/applan.png)
+![Graphical illustration of Landsat mission's timeline, showing previously launched satellites and Landsat-9 planned to be launched in September 2021.](pic/applan.png)
 
-![](pic/applan1.png) Guyon, D. et al. (2015)'s research highlights the utility of Landsat data for long-term forest monitoring and management, especially in regions like the Landes Forest, where the management practices and natural events significantly impact forest structure and productivity.
+![Usage of different Landsat sensors in studies over time.](pic/applan1.png)
+
+Guyon, D. et al. (2015)'s research highlights the utility of Landsat data for long-term forest monitoring and management, especially in regions like the Landes Forest, where the management practices and natural events significantly impact forest structure and productivity.
 
 ## 3 Personal Reflections
 

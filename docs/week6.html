@@ -199,16 +199,17 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>This week’s focus is on supervised classification of images in the machine learning part of Google Earth Engine (GEE).</p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">1 Summary</h2>
-<p>This week’s focus is on supervised classification of images in the machine learning part of Google Earth Engine (GEE). Supervised classification is the process of using labelled training data to train a classifier, and then applying this classifier to an image or collection of images for classification.CART (Classification and Regression Trees) is one of the commonly used supervised classification algorithms.</p>
+<p>Supervised classification is the process of using labelled training data to train a classifier, and then applying this classifier to an image or collection of images for classification.CART (Classification and Regression Trees) is one of the commonly used supervised classification algorithms.</p>
 <section id="cart" class="level3">
 <h3 class="anchored" data-anchor-id="cart">1.1 CART</h3>
 <p>CART is a decision tree algorithm that builds a decision tree by recursively partitioning the dataset into smaller subsets. At each split point (or node), it selects the feature and split threshold that best reduces the impurity (for classification problems) or variance (for regression problems) of the target variable. For classification problems, this means that the algorithm tries to find the features and thresholds that most clearly distinguish between different classes. Ultimately, this process generates a tree structure where the leaf nodes represent the final classification decisions.</p>
 <p><img src="pic/cart.png" class="img-fluid"></p>
 <p>The following training data was selected before classification:</p>
 <div style="text-align:center;">
-<p><img src="pic/data.png" class="img-fluid" style="width:60.0%"></p>
+<p><img src="pic/data.png" class="img-fluid" style="width:80.0%"></p>
 </div>
 </section>
 <section id="random-forest" class="level3">
@@ -217,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="pic/random.png" class="img-fluid"></p>
 <p>Here are the results of the random forest classification:</p>
 <div style="text-align:center;">
-<p><img src="pic/result.png" class="img-fluid" style="width:60.0%"></p>
+<p><img src="pic/result.png" class="img-fluid" style="width:80.0%"></p>
 </div>
 </section>
 </section>
