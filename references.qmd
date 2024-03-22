@@ -1,6 +1,5 @@
 # References {.unnumbered}
 
-::: {#refs}
 Hemati, M., Hasanlou, M., Mahdianpari, M. and Mohammadimanesh, F., 2021. A Systematic Review of Landsat Data for Change Detection Applications: 50 Years of Monitoring the Earth. Remote Sensing, 13(15), p.2869. Available at: https://doi.org/10.3390/rs13152869.
 
 Guyon, D. et al., 2015. Retrieving the stand age from a retrospective detection of multinannual forest changes using Landsat data. Application on the heavily managed maritime pine forest in Southwestern France from a 30-year Landsat time-series (1984-2014). In: 2015 IEEE International Geoscience and Remote Sensing Symposium (IGARSS). 2015 IEEE, pp. 1968--1971.
@@ -36,4 +35,3 @@ Hu, T. et al., 2018. Quantitative assessment of urban wetland dynamics using hig
 Hazaymeh, K. and Hassan, Q.K., 2015. Fusion of MODIS and Landsat-8 surface temperature images: A new approach. PLOS ONE, 10(3), e0117755.
 
 Vargas Zeppetello, L.R. et al., 2022. Probabilistic projections of increased heat stress driven by climate change. Communications Earth & Environment, 3(1), p.1.
-:::
