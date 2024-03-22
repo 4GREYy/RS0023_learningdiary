@@ -44,6 +44,10 @@ A. Application of ratio analysis: vegetation monitoring
 
 In vegetation health and growth monitoring, ratio analysis is often used to highlight differences between vegetation and other surface types. For example, the normalised vegetation index (NDVI), which is obtained by calculating the ratio of the near-infrared band to the red band, is a useful indicator of the health and biomass of vegetation. This method is widely used in agricultural management, forest monitoring and ecological research.
 
+For example, Bajocco, S. et al.(2022)'s study explores the relationship between the Normalized Difference Vegetation Index (NDVI) and the Leaf Area Index (LAI) in agricultural settings. It aims to develop a comprehensive library of conversion equations for estimating LAI from NDVI data, based on empirical relationships established through extensive literature review and analysis.
+
+![](pic/appndvi.png)
+
 B. Filtering Applications: Urban Planning
 
 In urban planning and building identification, filtering techniques can help remove image noise and improve the clarity of building edges. By applying spatial filters, such as edge enhancement filters, city layouts and road networks can be identified more clearly to support urban planning and traffic management.
@@ -51,6 +55,10 @@ In urban planning and building identification, filtering techniques can help rem
 C. Texture Analysis Application: Land Use Classification
 
 Texture analysis is able to extract texture information from images, which can be used to distinguish areas with different surface texture characteristics. This is particularly useful in land use and land cover classification, such as distinguishing between urban built-up areas, agricultural land and forests. Texture features increase the accuracy of classification, especially in high-resolution satellite image analysis.
+
+This paper by Przemysław Kupidura(2019) investigates the effectiveness of various texture analysis methods, including the gray level co-occurrence matrix (GLCM), Laplace filters, and granulometric analysis, for improving land use/cover classification.
+
+![](pic/apptex.png)
 
 D. Data fusion applications: improving image resolution
 

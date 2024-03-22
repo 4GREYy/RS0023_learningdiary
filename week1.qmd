@@ -8,7 +8,11 @@ This is the first week of the learning diary, this week's main focus is on learn
 
 Sentinel: The Sentinel series of satellites is part of Europe's Global Monitoring for Environmental Security (Copernicus programme), led by ESA.The Sentinel project is designed to provide data for a wide range of environmental and security monitoring, including land, oceans and the atmosphere. Of these, Sentinel-1, Sentinel-2 and Sentinel-3 are satellites that provide primarily terrestrial data.
 
+![](pic/sen.png)
+
 Landsat: The programme has been in operation since 1972 and is the world's longest land observation satellite project.The Landsat project is jointly managed by NASA and the United States Geological Survey (USGS).The Landsat series of satellites has a long history, with Landsat 8 and Landsat 9 currently active.
+
+![](pic/lan.png)
 
 #### 1.1.1 The differences between Landsat and Sentinel data
 
@@ -60,7 +64,9 @@ Spectral resolution: Spectral resolution is equally important for identifying an
 
 The study of Hemati, M.(2021) surveys 50 years of Landsat data applications, emphasizing the role of Landsat in monitoring Earth's surface changes. It underscores the importance of Landsat for governmental and international organizations in monitoring and understanding the dynamics of the Earth's surface, crucial for management, scientific inquiry, and policy.
 
-Guyon, D. et al. (2015)'s research highlights the utility of Landsat data for long-term forest monitoring and management, especially in regions like the Landes Forest, where the management practices and natural events significantly impact forest structure and productivity.
+![](pic/applan.png)
+
+![](pic/applan1.png) Guyon, D. et al. (2015)'s research highlights the utility of Landsat data for long-term forest monitoring and management, especially in regions like the Landes Forest, where the management practices and natural events significantly impact forest structure and productivity.
 
 ## 3 Personal Reflections
 

@@ -5,11 +5,15 @@ Hemati, M., Hasanlou, M., Mahdianpari, M. and Mohammadimanesh, F., 2021. A Syste
 
 Guyon, D. et al. (2015) "Retrieving the stand age from a retrospective detection of multinannual forest changes using Landsat data. Application on the heavily managed maritime pine forest in Southwestern France from a 30-year Landsat time-series (1984-2014)," in 2015 IEEE International Geoscience and Remote Sensing Symposium (IGARSS). \[Online\]. 2015 IEEE. pp. 1968--1971.
 
-New York City's Mayor's Office of Climate and Environmental Justice. n.d. Extreme Heat. Available at: https://climate.cityofnewyork.us/challenges/extreme-heat/ 
+Bajocco, S., Ginaldi, F., Savian, F., Morelli, D., Scaglione, M., Fanchini, D., Raparelli, E., & Bregaglio, S.U.M. (2022). On the Use of NDVI to Estimate LAI in Field Crops: Implementing a Conversion Equation Library. Remote Sensing, 14(15), 3554. https://doi.org/10.3390/rs14153554
 
-New York City Department of Health and Mental Hygiene, 2014. Epi Data Brief, August 14. Available at: https://www.nyc.gov/assets/doh/downloads/pdf/epi/databrief47.pdf 
+Kupidura, P. (2019). The Comparison of Different Methods of Texture Analysis for Their Efficacy for Land Use Classification in Satellite Imagery. Remote Sensing, 11(10), 1233. https://doi.org/10.3390/rs11101233
 
-City of New York Government, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/ 
+New York City's Mayor's Office of Climate and Environmental Justice. n.d. Extreme Heat. Available at: https://climate.cityofnewyork.us/challenges/extreme-heat/
+
+New York City Department of Health and Mental Hygiene, 2014. Epi Data Brief, August 14. Available at: https://www.nyc.gov/assets/doh/downloads/pdf/epi/databrief47.pdf
+
+City of New York Government, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/
 
 New York City Department of Health, 2022. 2022 New York City Heat-Related Mortality Report. Available at: https://nyccas.cityofnewyork.us/nyccas2022/report/1
 
